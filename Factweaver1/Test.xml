@@ -1,0 +1,17 @@
+<suite name="Cross Browser suite">
+	<test name="Chrome Test">
+		<parameter name="Browser" value="Chrome"></parameter>
+		<classes>
+			<class name="testCases.YourLogoLoginPageTestCase"></class>
+		</classes>
+	</test>
+<test name="Edge Test">
+		<parameter name="Browser" value="Edge"></parameter>
+		<classes>
+			<class name="testCases.YourLogoLoginPageTestCase"></class>
+		</classes>
+	</test>
+</suite>
+
+
+	
